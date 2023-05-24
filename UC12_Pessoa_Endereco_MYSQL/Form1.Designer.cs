@@ -348,7 +348,7 @@
             // 
             this.button_CADASTRAR.Location = new System.Drawing.Point(16, 415);
             this.button_CADASTRAR.Name = "button_CADASTRAR";
-            this.button_CADASTRAR.Size = new System.Drawing.Size(490, 23);
+            this.button_CADASTRAR.Size = new System.Drawing.Size(841, 23);
             this.button_CADASTRAR.TabIndex = 19;
             this.button_CADASTRAR.Text = "Cadastrar";
             this.button_CADASTRAR.UseVisualStyleBackColor = true;
@@ -406,10 +406,12 @@
             // dataGridView_CADASTRO
             // 
             this.dataGridView_CADASTRO.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView_CADASTRO.Location = new System.Drawing.Point(548, 30);
+            this.dataGridView_CADASTRO.Location = new System.Drawing.Point(524, 30);
             this.dataGridView_CADASTRO.Name = "dataGridView_CADASTRO";
-            this.dataGridView_CADASTRO.Size = new System.Drawing.Size(309, 348);
+            this.dataGridView_CADASTRO.Size = new System.Drawing.Size(333, 360);
             this.dataGridView_CADASTRO.TabIndex = 21;
+            this.dataGridView_CADASTRO.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_CADASTRO_CellEndEdit);
+            this.dataGridView_CADASTRO.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dataGridView_CADASTRO_MouseClick);
             // 
             // Form1
             // 
